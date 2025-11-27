@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("pexels-114877721-27940302.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: white;
+  border-bottom: 1px solid #ddd;
+}
+
+header span {
+  font-size: 22px;
+font-weight: bold;
+font-style: italic;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 15px;
+  font-size: 18px;
+
+}
+nav a:hover{
+  color: darkgreen;
+}
+
+header button {
+  padding: 10px 18px;
+  border: none;
+  background: #6a5af9;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 40px;
+}
+
+main h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+main p {
+  font-size: 16px;
+  line-height: 1.5;
+ font-style: normal;
+}
+
+main button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background: #6d1010;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  display: block;
+}
+main  button:hover{
+    background: blue;
+}
+
+main img {
+  width: 560px;
+   transition: transform 0.3s;
+}
+main img:hover{
+    transform: translateY(-5px);
+}
