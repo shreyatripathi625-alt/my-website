@@ -87,4 +87,29 @@ main img {
 }
 main img:hover{
     transform: translateY(-5px);
+
+}
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav {
+    margin: 10px 0;
+  }
+
+  main {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  main img {
+    width: 250px;
+    margin-top: 20px;
+  }
+
+  main h1 {
+    font-size: 36px;
+  }
 }
